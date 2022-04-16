@@ -1,0 +1,375 @@
+/* Documento CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Righteous&family=Roboto+Slab&family=Sarala&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    box-sizing:border-box;
+    font-size:17px;
+}
+
+#header > #header_menus--1 > ul li {
+    list-style-type:none;
+    display:inline;
+}
+
+#header > #header_menus--1 > ul li > a {
+    text-decoration:none;
+    color:#f8f9fa;
+}
+
+#header > #header_menus--1 > ul li > a:hover {
+    color:#f8f9fad7;
+}
+
+#header > #logo > img {
+    object-fit:cover;
+    width:100%;
+}
+
+#header > #header_menus--2 > ul li {
+    list-style-type:none;
+    display:inline;
+}
+
+#header > #header_menus--2 > ul li > a {
+    text-decoration:none;
+    color:#f8f9fa;
+}
+
+#header > #header_menus--2 > ul li > a:hover {
+    color:#f8f9fad7;
+}
+
+#content > #descrição {
+    margin-top:120px;
+}
+
+#content > #imagem--2 > img {
+    object-fit: cover;
+    width:100%;
+}
+
+#content--2 > #imagem--2-5 > img {
+    object-fit:cover;
+    width:100%;
+}
+
+#content--4 > #imagem--2 > img {
+    object-fit:cover;
+    width:100%;
+}
+
+#content > #descrição > #titulo {
+    font-family:'Roboto Slab', serif;
+}
+
+#content > #descrição > #titulo > #agendamento > #agendar {
+    width:155px;
+    height:60px;
+    border:none;
+    border-radius:5px;
+    color:#212529;
+    font-weight:bold;
+    font-size:17px;
+    background-color:#f8f9fa;
+    padding:8px 8px;
+    transition:all 0.3s;
+}
+
+#content > #descrição > #titulo > #agendamento > #agendar:hover {
+    background: rgb(33,37,41);
+    background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(154,151,151,1) 100%);
+    color:#f8f9fa;
+}
+
+#content--2 > #descrição--2 {
+    margin-top:120px;
+}
+
+#content--2 > #descrição--2 > #titulo--2 {
+    font-family:'Roboto Slab', serif;
+}
+
+#content--2 > #descrição--2 > #titulo--2 > #agendamento--2 > #agendar--2 {
+    width:155px;
+    height:60px;
+    border:none;
+    border-radius:5px;
+    color:#212529;
+    font-weight:bold;
+    font-size:17px;
+    background-color:#f8f9fa;
+    padding:8px 8px;
+    transition:all 0.3s;
+}
+
+#content--2 > #descrição--2 > #titulo--2 > #agendamento--2 > #agendar--2:hover {
+    background: rgb(33,37,41);
+    background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(154,151,151,1) 100%);
+    color:#f8f9fa;
+}
+
+#content--3 > #descrição--3 {
+    margin-top:120px;
+}
+
+#content--3 > #descrição--3 > #titulo--3 {
+    font-family:'Roboto Slab', serif;
+}
+
+#horário > ul li {
+    list-style-type:none;
+    color:#f8f9fa;
+}
+
+#content--4 > #descrição--4 {
+    margin-top:120px;
+}
+
+#content--4 > #descrição--4 > #titulo--4 {
+    font-family:'Roboto Slab', serif;
+}
+
+#content--4 > #descrição--4 > #agendamento--4 > #agendar--4 {
+    width:155px;
+    height:60px;
+    border:none;
+    border-radius:5px;
+    color:#212529;
+    font-weight:bold;
+    font-size:17px;
+    background-color:#f8f9fa;
+    padding:8px 8px;
+    transition:all 0.3s;
+}
+
+#content--4 > #descrição--4 > #agendamento--4 > #agendar--4:hover {
+    background: rgb(33,37,41);
+    background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(154,151,151,1) 100%);
+    color:#f8f9fa;
+}
+
+#content > #map {
+    background-color:#212529;
+    border-radius:8px;
+}
+
+#footer {
+    border-top:1px solid #f8f9fa91 !important;
+    margin-top:90px !important;
+}
+
+/*#footer > #logo--2 {
+    margin-left:0px !important;
+}
+*/
+
+#footer > #logo--2 > img {
+    object-fit:cover;
+    height:auto;
+    width:100%;
+}
+
+#footer > #features > ul li {
+    list-style-type:none;
+}
+
+#footer > #features > ul li > a {
+    text-decoration:none;
+    color:#f8f9fa;
+}
+
+#footer > #features > ul li > a:hover {
+    color:#f8f9fad7 !important;
+}
+
+#footer > #redesSociais > i:hover {
+    color:#f8f9fad7 !important;
+    cursor:pointer;
+}
+
+/* Remover o Menu Mobile */
+#header > #dropdown_menu {
+    display:none;
+}
+
+/* Fazer Toggle */
+.hidden {
+    display:none;
+}
+
+/* Remover Imagens de Mobile da resolução Desktop */
+
+/* Remover os Menus da resolução 812px e adicionar Menu Mobile */
+
+.versão--mobile1 {
+    display:none;
+}
+
+.versão--mobile2 {
+    display:none;
+}
+
+.versão--mobile3 {
+    display:none;
+}
+
+.versão--mobile4 {
+    display:none;
+}
+
+.versão--mobile5 {
+    display:none;
+}
+
+@media screen and (max-width:812px) {
+    #header {
+        display:flex;
+        justify-content:left !important;
+    }
+
+    #header > #header_menus--1 {
+        display:none;
+    }
+
+    #header > #header_menus--2 {
+        display:none;
+    }
+
+    #header > #logo {
+        display:none;
+    }
+
+    #header > #dropdown_menu {
+        display:block;
+    }
+
+    #header > #dropdown_menu > button{
+        width:90px !important;
+        height:70px;
+        border:none;
+    }
+
+    #header > #dropdown_menu > .dropdown_content > #listas > ul li {
+        list-style-type:none;
+        padding:18px 0px;
+        border-bottom:1px solid #f8f9fa91;
+    }
+
+    #header > #dropdown_menu > .dropdown_content {
+        border-bottom:1px solid #f8f9fa91;
+    }
+}
+
+@media screen and (max-width:812px) {
+    /* Ajustando os conteúdos ao Mobile */
+
+    /* Conteúdo 1*/
+    .versão--desktop1 {
+        display:none;
+    }
+
+    .versão--mobile1 {
+        display:block;
+    }
+    
+    #content {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin:0 auto !important;
+    }
+
+    #content > #imagem--2 {
+        margin-top:50px;
+    }
+
+    /* Conteúdo 2 */
+
+    #content--2 {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin:0 auto !important;
+    }
+
+    .versão--desktop2 {
+        display:none;
+    }
+
+    .versão--mobile2 {
+        display:block;
+    }
+
+    #content--2 > #imagem--2-5 {
+        margin-top:50px !important;
+    }
+
+    /* Conteúdo 4 que na verdade era pra ser o 3*/
+
+    .versão--mobile4 {
+        display:block;
+    }
+
+    .versão--desktop4 {
+        display:none;
+    }
+
+    #content--4 {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin:0 auto !important;
+    }
+
+    #content--4 > #imagem--2 > img {
+        margin-top:50px !important;
+    }
+
+    /* Conteúdo 3 */
+
+    .versão--desktop3 {
+        display:none;
+    }
+
+    .versão--mobile3 {
+        display:block;
+    }
+
+    #content--3 {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin:0 auto !important;
+    }
+
+    #content--3 > #descrição--3 > #titulo--3 > #lista--endereços {
+        display:flex !important;
+        flex-direction:column !important;
+    }
+
+    /* Footer */
+
+    .versão--desktop5 {
+        display:none;
+    }
+
+    .versão--mobile5 {
+        display:block;
+    }
+
+    #footer {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    #footer > #features > p > a {
+        text-decoration:none;
+    }
+}
